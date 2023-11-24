@@ -1,0 +1,22 @@
+[Unit]
+Description=Dinartether's distributed currency daemon
+After=network.target
+
+[Service]
+User=dinartether
+Group=dinartether
+
+Type=forking
+PIDFile=/var/lib/dinartetherd/dinartetherd.pid
+ExecStart=/usr/bin/dinartetherd -daemon -pid=/var/lib/dinartetherd/dinartetherd.pid \
+-conf=/etc/dinartether/dinartether.conf -datadir=/var/lib/dinartetherd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

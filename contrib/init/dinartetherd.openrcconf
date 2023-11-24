@@ -1,0 +1,33 @@
+# /etc/conf.d/dinartetherd: config file for /etc/init.d/dinartetherd
+
+# Config file location
+#DINTD_CONFIGFILE="/etc/dinartether/dinartether.conf"
+
+# What directory to write pidfile to?  (created and owned by $DINTD_USER)
+#DINTD_PIDDIR="/var/run/dinartetherd"
+
+# What filename to give the pidfile
+#DINTD_PIDFILE="${DINTD_PIDDIR}/dinartetherd.pid"
+
+# Where to write dinartetherd data (be mindful that the blockchain is large)
+#DINTD_DATADIR="/var/lib/dinartetherd"
+
+# User and group to own dinartetherd process
+#DINTD_USER="dinartether"
+#DINTD_GROUP="dinartether"
+
+# Path to dinartetherd executable
+#DINTD_BIN="/usr/bin/dinartetherd"
+
+# Nice value to run dinartetherd under
+#DINTD_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#DINTD_OPTS=""
+
+# The timeout in seconds OpenRC will wait for dinartetherd to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+DINTD_SIGTERM_TIMEOUT=60

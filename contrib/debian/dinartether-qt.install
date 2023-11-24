@@ -1,0 +1,6 @@
+usr/local/bin/dinartether-qt usr/bin
+share/pixmaps/dinartether32.xpm usr/share/pixmaps
+share/pixmaps/dinartether16.xpm usr/share/pixmaps
+share/pixmaps/dinartether128.png usr/share/pixmaps
+debian/dinartether-qt.desktop usr/share/applications
+debian/dinartether-qt.protocol usr/share/kde4/services/

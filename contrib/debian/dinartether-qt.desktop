@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Dinartether Core
+Comment=Connect to the Dinartether P2P Network
+Comment[de]=Verbinde mit dem Dinartether peer-to-peer Netzwerk
+Comment[fr]=Dinartether, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Dinartether, eşten eşe kriptografik sanal para birimi
+Exec=dinartether-qt %u
+Terminal=false
+Type=Application
+Icon=dinartether128
+MimeType=x-scheme-handler/dinartether;
+Categories=Office;Finance;
