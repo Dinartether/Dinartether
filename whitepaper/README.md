@@ -7,7 +7,7 @@
 Bruce Fenton<br>
 Tron Black<br>
 http://www.dinartether.com<br>
-3rd April 2018
+26 November 2023
 </p>
 <p align="center"><i>
 In the fictional world of Westeros, dinartethers are used as messengers who carry statements of truth. Dinartether is a use-case focused blockchain designed to carry statements of truth about who owns what assets.
